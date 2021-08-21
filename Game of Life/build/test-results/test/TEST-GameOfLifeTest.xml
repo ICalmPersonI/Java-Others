@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameOfLifeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-13T09:21:19" hostname="DESKTOP-44JHN1A" time="10.848">
+  <properties/>
+  <testcase name="start" classname="GameOfLifeTest" time="10.848"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

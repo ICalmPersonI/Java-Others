@@ -1,0 +1,9 @@
+calculator/Calculation.java
+ calculator.Calculation
+calculator/SmartCalculator.java
+ calculator.PreparingNumbersForCalculation
+ calculator.SmartCalculator
+ calculator.Variables
+calculator/Main.java
+ calculator.Calculator
+ calculator.Main

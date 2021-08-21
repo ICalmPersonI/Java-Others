@@ -1,0 +1,40 @@
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Code</title>
+
+    <link rel="stylesheet"
+          href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/default.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <style>
+        #load_date {
+        color: green;
+        margin: 10px;
+        }
+
+        code {
+        width: 600px;
+        height: 100px;
+        padding: 10px;
+        border: 4px solid black;
+        margin: 10px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<span id="load_date" th:text="${date}">
+</span>
+<div>
+    <p th:utext="${time}"></p>
+    <p th:utext="${view}"></p>
+    <pre id="code_snippet">
+        <code class="java" th:text="${codeBody}"></code>
+    </pre>
+</div>
+</body>
+</html>
