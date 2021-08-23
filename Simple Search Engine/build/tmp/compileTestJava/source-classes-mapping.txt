@@ -1,5 +1,0 @@
-SearchEngineTests.java
- SearchEngineTests
-SimpleSearchEngineTest.java
- SimpleSearchEngineTest
- TestClue

@@ -1,3 +1,0 @@
-RecipesApplicationTest.java
- RecipesApplicationTest
- RecipesApplicationTest$Recipe

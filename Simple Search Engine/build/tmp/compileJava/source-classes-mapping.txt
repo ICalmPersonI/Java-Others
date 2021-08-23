@@ -1,4 +1,0 @@
-search/SearchPeople.java
- search.SearchPeople
-search/Main.java
- search.Main

@@ -1,3 +1,0 @@
-ContactsTest.java
- ContactsTest
- TestClue
