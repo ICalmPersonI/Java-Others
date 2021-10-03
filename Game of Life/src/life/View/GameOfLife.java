@@ -48,7 +48,6 @@ public class GameOfLife extends JFrame {
 
     public void setAlive(int alive) {
         this.alive.add(alive);
-
     }
 
     public void setGeneration(int generation) {
