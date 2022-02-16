@@ -15,8 +15,8 @@ public class DataStore {
     static final double SPRING_MAX_POINTS = 550;
 
     private int id = 10000;
-    static final HashMap<Integer, Student> students = new LinkedHashMap<>();
-    static final HashMap<String, Integer> activity = new HashMap<>() {{
+    private final HashMap<Integer, Student> students = new LinkedHashMap<>();
+    private final HashMap<String, Integer> activity = new HashMap<>() {{
         put("java", 0);
         put("dsa", 0);
         put("databases", 0);
@@ -77,11 +77,11 @@ public class DataStore {
     }
 
     public String getSummary() {
-        return Statistics.getSummary();
+        return new Statistics(students, activity).getSummary();
     }
 
     public String getSummaryByCourse(String course) {
-        return Statistics.getSummaryByCourse(course);
+        return new Statistics(students, activity).getSummaryByCourse(course);
     }
 
     public HashMap<String, ArrayList<String>> getCertificates() {
